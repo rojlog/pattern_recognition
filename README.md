@@ -12,17 +12,17 @@ Project directories:
 ## Prerequisites
 The necessary programs to compile the programs with the versions that were used are listed:
 
-**Operating System:** Ubuntu 20.04
-**OpenCV:** 4.9.0-dev
-**C++:** 9.4.0
-**GNU Make:** 4.2.1
+**Operating System:** Ubuntu 20.04<br>
+**OpenCV:** 4.9.0-dev<br>
+**C++:** 9.4.0<br>
+**GNU Make:** 4.2.1<br>
 
 ## Environment Configuration
 
 Instructions for configuring the necessary environment to compile and run the project. For example, how to set the `BUILD` variable in `.bashrc` to facilitate compilation:
 To be able to compile the programs using make, it is necessary to declare the **build** variable in bashrc:
 
-echo "build() { make TARGET=\\\"$1\\\" }" >> ~/.bashrc
+echo "build() { make TARGET=\\\"$1\\\" }" >> ~/.bashrc  
 source ~/.bashrc
 
 **Note:** If you are already using the "build" variable in your bashrc, replace it with another.
