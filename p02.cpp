@@ -3,7 +3,7 @@ Programa 2. Uso de la estructura MAT para acceder a la matriz
 */
 
 #include <iostream>
-#include "opencv2\core.hpp"
+#include "opencv2/core.hpp"
 
 using namespace std;
 using namespace cv;

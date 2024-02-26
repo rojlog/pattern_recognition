@@ -21,8 +21,10 @@ all: $(TARGET)
 
 # Cómo construir el ejecutable
 $(TARGET): $(SRC)
-	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS) && ./$(TARGET)
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS) && ./$(TARGET) && rm -f $(TARGET)
 
+
+# echo: Compiling $(TARGET).cpp "&&" execute $(TARGET) "&&" erase $(TARGET).obj
 # Regla para limpiar archivos compilados
 clean:
 	rm -f $(TARGET) *.o
