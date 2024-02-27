@@ -29,6 +29,6 @@ source ~/.bashrc
 
 ## Compilation Example
 
-From the root directory, run:
+From the main directory, run:
 
 build p01
